@@ -82,18 +82,7 @@ git clone https://github.com/sinister3301/umu_Hackathon_NewCaptcha.git
 cd umu_Hackathon_NewCaptcha
 
 
-📂 Project Structure
-umu_Hackathon_NewCaptcha/
-├── build/
-├── public/
-├── src/
-│   ├── App.jsx
-│   ├── index.js
-│   └── styles/
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
+
 
 
 🧩 Form Workflow
