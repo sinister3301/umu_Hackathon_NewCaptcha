@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# 🧠 Passive Bot Detection (No CAPTCHA)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 **Live Demo:** [**http://new-captcha.netlify.app**](http://new-captcha.netlify.app)
 
-## Available Scripts
+🔗 **GitHub Repository:** [https://github.com/sinister3301/umu_Hackathon_NewCaptcha](https://github.com/sinister3301/umu_Hackathon_NewCaptcha)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛡️ Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Passive Bot Detection** is an advanced behavioral analysis system that verifies if a user is human — **without using traditional CAPTCHAs**.  
+Instead of solving puzzles, the app observes real-time interactions such as **mouse movements**, **click patterns**, **scrolling**, and **keystrokes** to calculate a **Trust Score** that represents how “human” the user’s behavior appears.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project was developed for the **UMU Hackathon** as an innovative solution for CAPTCHA-free authentication.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Key Features
 
-### `npm run build`
+- ✅ **No CAPTCHA Required** – Passive verification through behavioral analysis  
+- 🖱️ Tracks mouse speed, movement variance, and activity level  
+- ⌨️ Monitors keystroke patterns and timing  
+- 📜 Analyzes scrolling and touch gestures  
+- 🕒 Measures time spent on the page  
+- 📊 Calculates a real-time **Trust Score** (0–100%)  
+- 💡 Clean, modern, and responsive UI using **React + Tailwind CSS**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧩 Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Technology | Description |
+|-------------|--------------|
+| ⚛️ **React.js** | Frontend framework |
+| 🎨 **Tailwind CSS** | Styling and design system |
+| 🧰 **Lucide React** | Icon library for modern UI |
+| 🌐 **Netlify** | Hosting platform for live deployment |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧠 How It Works
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. The system begins **tracking user behavior** (mouse, keyboard, scroll, touch) the moment the page loads.  
+2. Each behavioral metric (e.g., mouse speed, keystroke frequency, time on page) contributes to a **weighted trust score**.  
+3. After ~5 seconds of observation, the algorithm decides whether the user is **human** or **bot-like**.  
+4. The user can then submit the form only if identified as **human**.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧾 Example Metrics
 
-## Learn More
+| Metric | Description |
+|--------|-------------|
+| 🖱️ Mouse Movements | Tracks X/Y coordinates and speed variance |
+| 🖲️ Click Patterns | Measures interval variance between clicks |
+| ⌨️ Keystrokes | Counts and times key presses |
+| 📜 Scroll Behavior | Detects natural scrolling activity |
+| 📱 Touch Events | Detects human touch interactions |
+| 🕒 Time on Page | Measures total engagement duration |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ Installation & Setup
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 1️⃣ Clone the Repository
+git clone https://github.com/sinister3301/umu_Hackathon_NewCaptcha.git
+cd umu_Hackathon_NewCaptcha  ```bash
 
-### Analyzing the Bundle Size
+### 2️⃣ Install Dependencies
+git clone https://github.com/sinister3301/umu_Hackathon_NewCaptcha.git
+cd umu_Hackathon_NewCaptcha
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 3️⃣ Run the App Locally
 
-### Making a Progressive Web App
+git clone https://github.com/sinister3301/umu_Hackathon_NewCaptcha.git
+cd umu_Hackathon_NewCaptcha
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 4️⃣ Build for Production
 
-### Advanced Configuration
+git clone https://github.com/sinister3301/umu_Hackathon_NewCaptcha.git
+cd umu_Hackathon_NewCaptcha
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+📂 Project Structure
+umu_Hackathon_NewCaptcha/
+├── build/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── index.js
+│   └── styles/
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+🧩 Form Workflow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The user enters:
+
+Aadhaar Number
+
+Full Name
+
+Mobile Number
+
+While typing and interacting, the system silently monitors and updates the trust score.
+
+Once verified as human, the Submit Request button activates.
+
+If detected as a bot, a message alerts:
+
+“Bot detected. Please try again with natural interaction.”
+
+📊 Trust Score Interpretation
+Score Range	Status	Meaning
+70–100%	🟢 Human Verified	Natural behavior detected
+40–69%	🟡 Uncertain	Low interaction or inconsistent behavior
+0–39%	🔴 Suspicious	Possible automated behavior
+
+
+🔒 Disclaimer
+
+This project is created for demonstration and research purposes only.
+It is not affiliated with UIDAI or any government organization.
+The "UIDAI Passive Bot Detection" name is used for conceptual illustration only.
+
+
+For Any Query :- 
+mfislam3301@gmail.com
+
+
+
