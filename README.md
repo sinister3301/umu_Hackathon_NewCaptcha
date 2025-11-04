@@ -1,4 +1,4 @@
-# 🧠 Passive Bot Detection (No CAPTCHA)
+# 🧠 Passive Bot Detection (New CAPTCHA)
 
 🚀 **Live Demo:** [**http://new-captcha.netlify.app**](http://new-captcha.netlify.app)
 
